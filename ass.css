@@ -1,0 +1,97 @@
+* {
+    font-style:
+        Work Sans;
+        border: 0;
+}
+
+.header {
+    
+    background-image: url(/images/banner/banner2.png);
+    width: 1600px;
+    height: 808px;
+    height: 808px;
+    background-repeat: no-repeat;
+}
+
+.header-title {
+
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    text-align: right;
+    margin: 216px 230px;
+}
+
+.header-info {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+
+.header-btn {
+    font-weight: ;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 21px 25px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.header-info {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+.main-section{
+    display: flex;
+align-items: center; 
+  
+}
+.main-title{
+    margin-left: 80px;
+
+}
+.main-section-img{
+    width: 569px;
+height: 723.3px;
+margin-left: 200px;
+}
+.main-sub-title{
+    ont-weight: 700;
+font-size: 40px;
+color: #151414;
+}
+.main-info{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+
+}
+.main-sub-info{
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+     list-style: none;
+}
+.plans-title{
+    text-align: center;
+    font-weight: 700;
+font-size: 40px;
+color: #151414;
+margin-top: 30px;
+}
+.my-plans-info{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.plans-img{
+    width: 214px;
+height: 197px;
+}
+.plans-title{
+    
+}
