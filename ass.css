@@ -1,11 +1,13 @@
 * {
     font-style:
         Work Sans;
-        border: 0;
+    border: 0;
+    
+
 }
 
 .header {
-    
+
     background-image: url(/images/banner/banner2.png);
     width: 1600px;
     height: 808px;
@@ -44,54 +46,135 @@
     font-size: 16px;
     color: #444343;
 }
-.main-section{
+
+.main-section {
     display: flex;
-align-items: center; 
-  
+    align-items: center;
+
 }
-.main-title{
+
+.main-title {
     margin-left: 80px;
 
 }
-.main-section-img{
+
+.main-section-img {
     width: 569px;
-height: 723.3px;
-margin-left: 200px;
+    height: 723.3px;
+    margin-left: 200px;
 }
-.main-sub-title{
-    ont-weight: 700;
-font-size: 40px;
-color: #151414;
+
+.main-sub-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
 }
-.main-info{
+
+.main-info {
     font-weight: 400;
     font-size: 16px;
     color: #444343;
 
 }
-.main-sub-info{
+
+.main-sub-info {
 
     font-weight: 400;
     font-size: 16px;
     color: #444343;
-     list-style: none;
+    list-style: none;
 }
-.plans-title{
+
+.plans-title {
     text-align: center;
     font-weight: 700;
-font-size: 40px;
-color: #151414;
-margin-top: 30px;
+    font-size: 40px;
+    color: #151414;
+    margin-top: 30px;
 }
-.my-plans-info{
+
+.my-plans-info {
     display: flex;
     justify-content: space-around;
     list-style: none;
+    margin: 0 230px;
 }
-.plans-img{
+
+.plans-img {
     width: 214px;
-height: 197px;
+    height: 197px;
+
 }
-.plans-title{
+
+.plans-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    text-align: center;
+}
+
+.plans-info {
+
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+.gradient-section {
+
+    background-image: url(/images/gradient1.png), url(/images/watch.png);
+    opacity: 10;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    width: 1140px;
+    height: 800px;
     
+    padding-left: 64px;
+    padding-top: 15px;
+    color: #FFFFFF;
+     font-weight: 30px;
+    font-size: 40px;
+    
+}
+.btn{
+    padding: 25px;
+    width: 160px;
+    height: 64px;
+}
+.footer{
+    background-color: #151414;
+    color: #FFFFFF;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.footer-title{
+    Weight:700;
+font-size: 45px;
+padding-top: 30px;
+}
+.footer-description{
+
+    font-weight: 400px;
+    font-size: 16px;
+}
+.icon{
+    margin-bottom: 130px;
+}
+.footer{
+    display: flex;
+}
+.subscribe{
+
+    font-weight: 600;
+font-size: 25px;
+color: #FFFFFF;
+}
+.subs-btn{
+    width: 98.06px;
+height: 24px;
+font-weight: 350px;
+font-size: 20px;
+color: #F15B22;
 }
